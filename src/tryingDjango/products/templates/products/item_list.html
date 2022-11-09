@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+<!doctype html>
+<html>
+{% block content %}
+<h3>In item list </h3>
+    {% for instance in object_list %}
+        <a href='{{instance.get_absolute_url}}'> <h1>{{instance.title}}</h1>   </a>
+        <h2>{{instance.description}}</h1>
+        <h3>{{instance.price}}</h1>
+
+    {% endfor %}
+{% endblock %}
+</html>

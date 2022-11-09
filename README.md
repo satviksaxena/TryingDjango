@@ -1,2 +1,8 @@
-# TryingDjango
-Free code camp Django tutorial, for quick revision of Django basics 
+python manage.py runserver
+python manage.py createsuperuser
+python manage.py startapp newapp
+python manage.py makemigrations 
+python manage.py migrate
+
+
+![img.png](img.png)
